@@ -52,7 +52,7 @@
 }
 
 /* // Small devices (landscape phones, 576px and up)*/
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .container{
     justify-content: center;
     width: 600 !important;
@@ -67,7 +67,7 @@
   .cards{
     margin-top:50px;
   }
-}
+} */
 
 /* // Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
