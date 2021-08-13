@@ -1,40 +1,37 @@
 /* Your button CSS file */
 .btn-medium{
-	color: #808080;
-	border: 1px solid #808080;
 	border-radius: 20px;
 	padding: 10px 15px;
 	font-weight: lighter;
 	opacity: 1;
   text-decoration: none;
+  position: relative;
+  top: 170px;
+  color: #ffffff;
+  /* text-shadow: 1px 1px 10px rgba(0,0,0,0.8); */
+  background-color: rgba(66,98,183,1);
+  padding: 15px;
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
 }
+.btn-middle {
+  color: #212738;
+  background-color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
 
 .btn-medium:hover{
-	opacity: 0.6;
+	opacity: 0.9  ;
 	text-decoration: none;
-	color: rgba(176,222,255,1)
 }
 
-.btn-medium a{
-  text-decoration: none;
+@media (min-width: 100px) and (max-width: 575px) {
+  .btn-medium{
+    top: 4px
+  }
 }
-
-.btn-medium-middle{
-	color: #808080;
-	border: 1px solid #808080;
-	border-radius: 20px;
-	padding: 10px 15px;
-	font-weight: lighter;
-	opacity: 1;
-  text-decoration: none;
-}
-
-.btn-medium-middle:hover{
-	opacity: 0.6;
-	text-decoration: none;
-	color: rgba(176,222,255,1);
-}
-
-.btn-medium-middle a{
-  text-decoration: none;
+@media (max-width: 576px) {
+  .btn-medium{
+    top:20px
+  }
 }
