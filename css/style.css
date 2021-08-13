@@ -1,0 +1,12 @@
+@import url("components/cards.css");
+@import url("components/container.css");
+@import url("components/button.css");
+
+/* general */
+.text-center {
+  text-align: center;
+}
+
+body{
+  background-color: #f8f8f6;
+}

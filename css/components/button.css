@@ -1,0 +1,40 @@
+/* Your button CSS file */
+.btn-medium{
+	color: #808080;
+	border: 1px solid #808080;
+	border-radius: 20px;
+	padding: 10px 15px;
+	font-weight: lighter;
+	opacity: 1;
+  text-decoration: none;
+}
+
+.btn-medium:hover{
+	opacity: 0.6;
+	text-decoration: none;
+	color: rgba(176,222,255,1)
+}
+
+.btn-medium a{
+  text-decoration: none;
+}
+
+.btn-medium-middle{
+	color: #808080;
+	border: 1px solid #808080;
+	border-radius: 20px;
+	padding: 10px 15px;
+	font-weight: lighter;
+	opacity: 1;
+  text-decoration: none;
+}
+
+.btn-medium-middle:hover{
+	opacity: 0.6;
+	text-decoration: none;
+	color: rgba(176,222,255,1);
+}
+
+.btn-medium-middle a{
+  text-decoration: none;
+}
